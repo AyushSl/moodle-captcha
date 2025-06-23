@@ -1,0 +1,1 @@
+Firefox requires that the extension be signed by Mozilla even if you are running your own extension. This folder thus contains the Mozilla-signed build for Firefox Users (both mobile and desktop). It can be verified that this is built from the same code (and is thus not malicious) by unpacking the build artifact.
