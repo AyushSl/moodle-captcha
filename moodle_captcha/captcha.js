@@ -1,0 +1,3 @@
+const a = document.getElementById('login').innerText.match(/Please (add|subtract|enter second value|enter first value) (\d+) (?:\+|\-|\,) (\d+)/);
+let answer; if (a[1] == 'add') {answer = Number(a[2]) + Number(a[3]);} else if (a[1] == 'subtract') {answer = Number(a[2]) - Number(a[3])} else if (a[1] == 'enter first value') {answer = Number(a[2])} else if (a[1] == 'enter second value') {answer = Number(a[3])};
+document.getElementById('valuepkg3').value = answer;
